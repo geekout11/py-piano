@@ -2,17 +2,8 @@ from pyautogui import *
 import pyautogui
 import time
 import keyboard
-import random
 import win32api
 import win32con
-
-
-# Coordinates of black tiles
-# 601, 650
-# 688, 650
-# 772, 650
-# 861, 650
-
 
 def click(x, y):
     win32api.SetCursorPos((x, y))
